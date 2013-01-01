@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raw:GameSetRaw xmlns:fx="http://ns.adobe.com/mxml/2009" 
+				xmlns:s="library://ns.adobe.com/flex/spark" 
+				xmlns:mx="library://ns.adobe.com/flex/mx" 
+				xmlns:raw="com.miguel.bowling.views.components.gameSet.raw.*" 
+				xmlns:frame="com.miguel.bowling.views.components.frame.*" xmlns:finalFrame="com.miguel.bowling.views.components.finalFrame.*"
+				>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<raw:layout>
+		<s:HorizontalLayout />
+	</raw:layout>
+	
+	<frame:FrameGame id="frame1" />
+	<frame:FrameGame id="frame2" />
+	<frame:FrameGame id="frame3" />
+	<frame:FrameGame id="frame4" />
+	<frame:FrameGame id="frame5" />
+	<frame:FrameGame id="frame6" />
+	<frame:FrameGame id="frame7" />
+	<frame:FrameGame id="frame8" />
+	<frame:FrameGame id="frame9" />
+	<finalFrame:FinalFrameGame id="frame10" />
+</raw:GameSetRaw>

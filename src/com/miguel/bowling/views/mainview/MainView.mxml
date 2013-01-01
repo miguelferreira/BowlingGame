@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:VGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx" 
+		  xmlns:play="com.miguel.bowling.views.components.play.*" 
+		  xmlns:gameSet="com.miguel.bowling.views.components.gameSet.*" xmlns:playManual="com.miguel.bowling.views.components.playManual.*"
+		  >
+	
+	<fx:Script>
+		<![CDATA[
+			import com.miguel.bowling.events.GameEvent;
+			protected function newGame_clickHandler(event:MouseEvent):void
+			{
+				dispatchEvent( new GameEvent(GameEvent.NEW_GAME) );
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:HGroup>
+		<play:PlayBall/>
+		<playManual:ManualPlayBall/>
+	</s:HGroup>
+	<gameSet:GameSet/>
+	<s:Button id="newGame" label="New game" click="newGame_clickHandler(event)"/>
+</s:VGroup>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="BowlingGame">
+<testsuite name="flexUnitTests:BowlingNumberTest" type="testcaseclass"/>
+<testsuite name="flexUnitTests:GameControllerTest" type="testcaseclass"/>
+<testsuite name="flexUnitTests:NumberUtilsTests" type="testcaseclass"/>
+</testsuite>
+<portNumber value="8765" />
+</testrun>
